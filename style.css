@@ -20,21 +20,21 @@ h1{
 
 header h2{
   font-family: 'Montserrat';
-  font-size: 15px;
+  font-size: 30px;
   text-transform: uppercase;
   padding-top: 150px;
 }
 
 header p{
   font-family: 'Montserrat';
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 header a { 
   color: #EFA4AD;
   font-family: 'Montserrat';
-  font-size: 10px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@ header img {
 
 .bio h3 {
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 100px;
 }
@@ -103,7 +103,7 @@ header img {
 
 .travail h3 {
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 50px;
 }
@@ -277,4 +277,221 @@ a:hover {
   opacity: 1;
   transform: translateY(0);
   transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+@media (max-width: 991.98px) {
+  header {
+    height: auto;
+  }
+
+  header img {
+    height: 300px;
+    width: auto;
+  }
+
+  h1{
+    font-size: 50px !important;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  
+  header h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 70px;
+  }
+
+  header p{
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  
+  header a { 
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+
+  .bio {
+    padding: 30px;
+  }
+  
+  .bio h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .bio h4 {
+    font-family: "BogartRegular";
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  
+  .bio p {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  
+  .bio img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .cv {
+    padding: 30px;
+  }
+  
+  .cv img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .cv h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .cv p, .cv li {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+
+  .travail {
+    padding: 30px;
+  }
+  
+  .travail h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .travail h4 {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  
+  .travail p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: justify;
+  }
+  
+  .travail img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mobile {
+    padding: 30px;
+  }
+  
+  .mobile h4 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .mobile p {
+    font-size: 14px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .mobile img {
+    width: 100%;
+  }
+
+  .edu {
+    padding: 30px;
+  }
+  
+  .edu h4 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .edu p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .edu img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .mentoring {
+    padding: 30px;
+  }
+  
+  .mentoring h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  
+  .mentoring h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+  
+  .mentoring p {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .mentoring .img-form {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .mentoring img {
+    height: 100px;
+  }
+
+  .quote .left {
+    padding: 30px;
+  }
+  
+  .quote p {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  
+  .quote .right {
+    padding: 50px;
+  }
+  
+  .quote img {
+    width: 100%;
+  }
+
+  .contact {
+    padding: 30px;
+  }
+  
+  .contact h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  
+  .contact img {
+    width: 100%;
+  }
+  
+  .contact-txt {
+    padding-top: 20px;
+  }
+  
+  .p-title {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .p-txt {
+    font-size: 14px;
+  }
+  
 }
