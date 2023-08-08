@@ -46,6 +46,10 @@ header img {
   height: 700px;
 }
 
+header .sous-titre{
+  font-size: 22px;
+}
+
 .bio {
   padding: 70px;
 }
@@ -95,6 +99,10 @@ header img {
   font-family: "Montserrat";
   font-size: 16px;
   padding-bottom: 20px;
+}
+
+.cv .strong{
+  font-weight: 600;
 }
 
 .travail {
@@ -206,7 +214,7 @@ header img {
 
 .mentoring img {
   width: auto;
-  height: 130px;
+  height: 110px;
 }
 
 .quote .left {
