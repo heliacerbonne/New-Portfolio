@@ -8,7 +8,6 @@ const ratio = .1;
       const handleIntersect = function (entries, observer) {
         entries.forEach(function (entry) {
           if (entry.intersectionRatio > ratio) {
-            console.log("coucou");
             entry.target.classList.remove('reveal');
             entry.target.classList.add('reveal-visible');
             observer.unobserve(entry.target);
