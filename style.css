@@ -287,6 +287,19 @@ a:hover {
   transition: 1s cubic-bezier(.5, 0, 0, 1);
 }
 
+footer{
+  padding-top: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #828bcd;
+}
+
+.mentions{
+  font-size: 18px !important;
+  font-family: 'Montserrat' !important;
+  padding-top: 10px !important;
+}
+
 @media (max-width: 991.98px) {
   header {
     height: auto;
